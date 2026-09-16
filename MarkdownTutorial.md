@@ -38,3 +38,14 @@ http://brewerlab.net - automatic
 ## IMAGES
 
 ![I luv Isopods](https://cdn.isopod.site/2022/02/P2228844.jpg)
+
+## BACKSLASH ESCAPES
+
+\*Literal asterisks\*
+
+## FENCED CODE BLOCKS
+
+```
+echo "Hello"
+```
+
