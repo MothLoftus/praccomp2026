@@ -59,3 +59,10 @@ print("Hello")
 ```r
 x <- 4^2
 ```
+
+## TASK LISTS
+
+- [ ] this is an incomplete task
+- [x] this is a complete task
+- [x] @mention, #refs, [links](), **formatting**, <del>tags</del>, and ~strikethrough~
+- [x] list syntax required (ordered or unordered) 
