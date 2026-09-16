@@ -66,3 +66,13 @@ x <- 4^2
 - [x] this is a complete task
 - [x] @mention, #refs, [links](), **formatting**, <del>tags</del>, and ~strikethrough~
 - [x] list syntax required (ordered or unordered) 
+
+## TABLES
+
+First Header | Second Header 
+------------ | -------------
+Content Column 1 Row 1 | Content Column 2 Row 1
+Content COlumn 1 Row 2 | Content Column 2 Row 2
+
+
+
