@@ -72,7 +72,8 @@ x <- 4^2
 First Header | Second Header 
 ------------ | -------------
 Content Column 1 Row 1 | Content Column 2 Row 1
-Content COlumn 1 Row 2 | Content Column 2 Row 2
+Content Column 1 Row 2 | Content Column 2 Row 2
 
-
+## EMOJI
+:spider:
 
