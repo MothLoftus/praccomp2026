@@ -1,6 +1,9 @@
 #! /usr/bin/env python3
 
-DNASeq = input("Enter DNA Sequence: ")
+import sys  
+
+#DNASeq = input("Enter DNA Sequence: ")
+DNASeq = sys.argv[1] 
 DNASeq = DNASeq.upper()
 DNASeq = DNASeq.replace(" ","")
 
@@ -31,3 +34,9 @@ else:
 	MeltTempShort = (4 * TotalStrong) + (2 * TotalWeak)
 	print("\nTm Short (<14): "+f'{MeltTempShort:.4f}'+" C\n")
 
+BaseList="ATCG"
+
+for Base in BaseList:
+	Percent = 100 * DNASeq.count(Base) / SeqLength
+	#print(Base+" "+str(Percent)) another type of printing; prints base as a string w a space plus percent as a string
+	print("%s: %4.1f" % (Base, Percent))
